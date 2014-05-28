@@ -2,4 +2,4 @@ project dotfiles
 ================
 Developed for bestape/.dotfiles.
 
-Place these files a project's parent directory.
+Place these files in the project's parent directory.
