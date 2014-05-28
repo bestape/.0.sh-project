@@ -1,6 +1,6 @@
 project dotfiles
 ================
-Developed for bestape/.dotfiles.
+Developed for `bestape/.dotfiles`.
 
 Place these files in a project's parent directory to use them.
 
