@@ -5,20 +5,21 @@
 var pre = ''
 , post = ''
 Object.defineProperty(global, '__stack', {
-  get: function(){
-    var orig = Error.prepareStackTrace;
-    Error.prepareStackTrace = function(_, stack){ return stack; };
-    var err = new Error;
-    Error.captureStackTrace(err, arguments.callee);
-    var stack = err.stack;
-    Error.prepareStackTrace = orig;
-    return stack;
-  }
+	get: function () {
+		var orig, err, stack
+		orig = Error.prepareStackTrace
+		Error.prepareStackTrace = function(_, stack){ return stack }
+		err = new Error
+		Error.captureStackTrace(err, arguments.callee)
+		stack = err.stack
+		Error.prepareStackTrace = orig
+		return stack
+	}
 })
 Object.defineProperty(global, '__l', {
-  get: function(){
-	  return pre + __stack[1].getLineNumber() + post
-  }
+	get: function () {
+		return pre + __stack[1].getLineNumber() + post
+	}
 })
 module.exports = function (d) { 
 	pre = d[0]
