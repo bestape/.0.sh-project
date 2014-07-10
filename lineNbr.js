@@ -1,12 +1,11 @@
 #! usr/bin/env node
-/** 
-	This is meant to be used as a Node.js bistro library; it does not use npm.
-	use:
+//	This is meant to be used as a Node.js bistro library; it does not use npm.
+/** use
 	require('./lineNbr.js')([ 'On line ', ' snakes:' ])
 	console.log(__ln, 'are in the grass')
 	// On line 2 snakes:
 	// are in the grass
-	**/
+**/
 var xS = '', yS = ''
 Object.defineProperty(global, '__stack', {
 	get: function () {
