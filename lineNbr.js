@@ -21,7 +21,7 @@ Object.defineProperty(global, '__stack', {
 })
 Object.defineProperty(global, '__ln', {
 	get: function () {
-		return xS + __stack[1].getLineNumber() + xS
+		return xS + __stack[1].getLineNumber() + yS
 	}
 })
 module.exports = function (xA) { 
