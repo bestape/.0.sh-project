@@ -1,12 +1,14 @@
 # project dotfiles
 ## about
 Developed for a bash shell configured with `.dotfiles`.
+
 ## setup
 Place these files in a project's parent directory to use them.
 
 To grab individually, `wget`: 
-* https://raw.githubusercontent.com/bestape/.project/master/.jshintrc
-* https://raw.githubusercontent.com/bestape/.project/master/lineNbr.js
+* `https://raw.githubusercontent.com/bestape/.project/master/.jshintrc`
+* `https://raw.githubusercontent.com/bestape/.project/master/lineNbr.js`
+
 ## license
 .project Copyright (C) 2014 bestape
 
