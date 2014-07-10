@@ -1,5 +1,5 @@
 #! usr/bin/env node
-//	This is meant to be used as a Node.js bistro library; it does not use npm.
+// This is meant to be used as a Node.js bistro library; it does not run via npm.
 /** use
 	require('./lineNbr.js')([ 'On line ', ' snakes:' ])
 	console.log(__ln, 'are in the grass')
