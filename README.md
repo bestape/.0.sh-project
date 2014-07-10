@@ -6,8 +6,8 @@ Developed for a bash shell configured with `.dotfiles`.
 Place these files in a project's parent directory to use them.
 
 To grab individually, `wget`: 
-* `https://raw.githubusercontent.com/bestape/0.sh/project/master/.jshintrc`
-* `https://raw.githubusercontent.com/bestape/0.sh/project/master/lineNbr.js`
+* `https://raw.githubusercontent.com/bestape/0.sh-project/master/.jshintrc`
+* `https://raw.githubusercontent.com/bestape/0.sh-project/master/lineNbr.js`
 
 ## license
 .dotfiles/project Copyright (C) 2014 bestape
