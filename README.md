@@ -6,11 +6,11 @@ Developed for a bash shell configured with `.0.sh`.
 Place these files in a project's parent directory to use them.
 
 To grab individually, `wget`: 
-* `https://raw.githubusercontent.com/bestape/.0.sh-project/master/.jshintrc`
-* `https://raw.githubusercontent.com/bestape/.0.sh-project/master/lineNbr.js`
+* `code.bestape.net/.jshintrc`
+* `code.bestape.net/lineNbr`
 
 ## license
-.0.sh-project is released under the [ISC](http://www.isc.org/downloads/software-support-policy/isc-license) license.
+[.0.sh-project](http://0.sh-project.bestape.net) is released under the [ISC](http://www.isc.org/downloads/software-support-policy/isc-license) license.
 
 Copyright &copy; 2013-2014 by [bestape](mailto:.0.sh-project@bestape.net) 
 
