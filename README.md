@@ -1,6 +1,6 @@
 # project dotfiles for bash shell
 ## about
-Developed for a bash shell configured with `.0.sh`.
+Developed for a bash shell configured with [.0.sh](http://0.sh.bestape.net).
 
 ## setup
 Place these files in a project's parent directory to use them.
